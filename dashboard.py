@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load your dataset
-df = pd.read_csv('dashboard/all_data.csv')
+df = pd.read_csv('all_data.csv')
 
 # Set up the title and subtitle
 st.title("Bike Sharing Data Analysis Submission")
